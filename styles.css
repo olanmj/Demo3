@@ -1,0 +1,14 @@
+td, th {
+    border: 1px solid blue;
+    padding: 10px;
+    width: 150px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.number {
+    text-align: right;
+}
+
