@@ -7,7 +7,7 @@
     <title>Demo</title>
 </head>
 <body>
-    <h1>HELLO</h1>
+    <h1 id="hello">HELLO</h1>
     <table>
             <tr>
               <th>Item</th>
@@ -39,4 +39,8 @@
           </div>
           
 </body>
+<script>
+    document.title = "My Page";
+    document.querySelector("#hello").innerHTML = "GOODBYE";
+</script>
 </html>
